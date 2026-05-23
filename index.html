@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Text Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet"
+/>
+
+  <div class="container">
+    <h1><span>AI</span> Text Summarizer</h1>
+
+    <textarea 
+      id="inputText"
+      placeholder="Paste your long text here..."
+    ></textarea>
+
+    <div class="buttons">
+      <button id="summarizeBtn">Summarize</button>
+      <button id="copyBtn">Copy Summary</button>
+    </div>
+
+    <div class="info">
+      <p>Original Words: <span id="originalCount">0</span></p>
+      <p>Summary Words: <span id="summaryCount">0</span></p>
+    </div>
+
+    <div class="summary-box">
+      <h2>Summary</h2>
+      <p id="summaryText">Your summary will appear here...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
