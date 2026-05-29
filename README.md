@@ -198,7 +198,8 @@ This project is deployed using:
 Your Name
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/krishnagarg2881
+
 
 ---
 
